@@ -1,11 +1,9 @@
 # `@cosmoz/eva`
 
-> TODO: description
+> a script to initialize everything for dev env (brew, oh-my-zsh, tmux, vim)
 
 ## Usage
 
-```
-const eva = require('@cosmoz/eva');
-
-// TODO: DEMONSTRATE API
+```console
+$ bin/eva
 ```
