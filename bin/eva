@@ -24,7 +24,7 @@ do
   printf "+ $brew_pkg"
   if [[ -z "$(brew ls --versions $brew_pkg)" ]]
   then
-    printf " \e[33m⧖\e[39m\n"
+    printf "\e[33m...\e[39m\n"
     brew install $brew_pkg
   else
     printf " \e[32m✔\e[39m\n"
@@ -39,7 +39,7 @@ do
   printf "+ $brew_cask_pkg"
   if [[ -z "$(brew cask ls --versions $brew_cask_pkg)" ]]
   then
-    printf " \e[33m⧖\e[39m\n"
+    printf "\e[33m...\e[39m\n"
     brew cask install $brew_cask_pkg
   else
     printf " \e[32m✔\e[39m\n"
